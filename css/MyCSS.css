@@ -58,7 +58,11 @@
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-  .HeadBar h3 {display: none;}
+  .HeadBar h3 {display: none; visibility: hidden;}
+}
+
+@media screen and (max-width: : 600px){
+  .HeadBar h3 span {display: none; visibility: hidden;}	
 }
 
 #navBarBtn{
