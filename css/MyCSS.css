@@ -32,11 +32,6 @@
   margin-left: 50px;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-
 .HeadBar {
 	background-color: #2A2B28;
 	border-radius: 2px;
@@ -62,7 +57,7 @@
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-  .headBar h3 {font-size: 18px;}
+  .HeadBar h3 {font-size: 18px;}
 }
 
 #navBarBtn{
