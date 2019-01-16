@@ -21,8 +21,8 @@
   <button onclick="autoScrollFunction(0)" id="topBtn" title="Go to top">Top of page</button>
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="https://github.com/reynaldiRepo">Goto My Github Repository</a>
-      <a href="#" onclick="autoScrollFunction(1900)">Contact</a>
+      <a href="https://github.com/reynaldiRepo"><i class="fa fa-github"></i> My Github</a>
+      <a href="#myFooter"><i class="fa fa-phone"></i> Contact</a>
   </div>
   <div class="HeadBar" id="headBar">
     <span id="navBarBtn" onclick="openNav()" style="color: white;">&#9776;</span>
@@ -34,20 +34,21 @@
 		</q>	
 	</div>
 	<div class="container">
+    <hr style="visibility: hidden;"><hr style="visibility: hidden;"><br>
 		<div class="row">
     <div class="col-sm-4">
       <h3>About Me</h3>
       <img id="MyFoto" src="./IMAGE/MyFoto.jpg" alt="Dont Click My Photo" onclick="modalFoto()">
-      <p>My name is Reynaldi, i was born in Bandung 4th August 1998, and now i live in Gresik, East Java, Indonesia. I am a student at Trunonjoyo University majoring in Informatics Engineering.  I am an IT Enthusiast<br> <a href="#" onclick="autoScrollFunction(510)">Read more..</a></p>
+      <p>My name is Reynaldi, i was born in Bandung 4th August 1998, and now i live in Gresik, East Java, Indonesia. I am a student at Trunonjoyo University majoring in Informatics Engineering.  I am an IT Enthusiast<br> <a href="#aboutDiv" onclick="autoScrollFunction(10)">Read more..</a></p>
     </div>
     <div class="col-sm-4">
       <h3>What Can I do ?</h3>
       <p>Things I can do. write code from several languages, 
-         some lenguages that i understand : python for my basics, java, javaScript, WEB Programing (HTML, CSS, PHP), little bits for doing Front End Programing and design because I am more interested and comfortable works on Back End Programing such as algorithms in an application, processing data with data mining methods, structuring data in databases and others. <br><a href="#" onclick="autoScrollFunction(880)">Read more..</a></p>
+         some lenguages that i understand : python for my basics, java, javaScript, WEB Programing (HTML, CSS, PHP), little bits for doing Front End Programing and design because I am more interested and comfortable works on Back End Programing such as algorithms in an application, processing data with data mining methods, structuring data in databases and others. <br><a href="#wcidDiv" onclick="autoScrollFunction(10)">Read more..</a></p>
     </div>
     <div class="col-sm-4">
       <h3>My Projects List</h3>        
-      <p>I have done some projects that I have uploaded in my github repository<br><a href="#" onclick="autoScrollFunction(1200)">Read more..</a></p>
+      <p>I have done some projects that I have uploaded in my github repository<br><a href="#myProjectList" onclick="autoScrollFunction(10)">Read more..</a></p>
     </div>
   </div>
 	</div>
@@ -56,8 +57,9 @@
     <img class="modal-content" id="img01">
     <div id="caption"></div>  
     </div>
-    <hr><hr>
+    <br>
   <div class="container" id="aboutDiv">
+    <hr><hr><br>
       <h2>About Me</h2>
       <img src="./IMAGE/MyFoto.jpg" style="width: 23%; float: left; margin-right: 10px; border-radius: 10px;">
       <p>My name is Reynaldi, i was born in Bandung 4th August 1998, and now i live in Gresik, East Java, Indonesia. I am a student at Trunonjoyo University majoring in Informatics Engineering.  I am an IT Enthusiast. 
@@ -65,8 +67,9 @@
       <dd>music is my work companion, I am very comfortable working with listening to music, I was also a musician during high school, a little story hahaha, and coffee is doping for me, I really love coffee, it's like fuel in my brain to break a problem with the work I did. I can also work in teams or individually, I can be a good listener, I can really accept criticism, and I really like giving advice to people who ask me. so I can say I am a person who is ready to work in a collaborative era like today.
       <dd><q>If you want to know me further, please give me a project or work on a project with me, and you will find out</q>. marketing words from me haha ​​.. </p>
   </div>
-  <hr><hr>
+  <br>
   <div class="container" id="wcidDiv">
+    <hr><hr><br>
     <h2>What Can I Do ?</h2>
     <p>Things I can do. write code from several languages, 
           some lenguages that i understand : python for my basics, java, javaScript, WEB Programing (HTML, CSS, PHP), little bits for doing Front End Programing and design because I am more interested and comfortable works on Back End Programing such as algorithms in an application, processing data with data mining methods, structuring data in databases and others.
@@ -74,8 +77,9 @@
       <dd>besides my focus on the programming of mobile applications, I am also an enthusiastic person with data mining and machine learning, I like to process data so that the data can be used as useful things such as decision support systems or systems for forcasting something. Because my basic language is in Python, where Python is the most powerful language for doing data mining or machine learning, I have experienced using several libraries from Python which can be used for data mining and machine learning. tensorflow, SkLearn, theano, and seaborn are some of the libraries I've used  
       </p>
   </div>
-<hr><hr>
+<br>
   <div class="container" id="myProjectList">
+    <hr><hr><br>
     <h2>My Projects</h2>
     <div class="row">
       <div class="col-sm-4">
@@ -147,7 +151,7 @@
     </div>
   </div>
 
- <footer class="footer-distributed">
+ <footer class="footer-distributed" id="myFooter">
       <div class="footer-left">
         <h3>ReyanaldiRepo<span>.github.io</span></h3>
         <p class="footer-links">
