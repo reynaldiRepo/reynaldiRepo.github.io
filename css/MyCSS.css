@@ -49,8 +49,7 @@
 
 .HeadBar h3{
 	color:  #ffffff;
-	font: normal 36px 'Cookie', cursive;
-	margin: 0;
+	margin-top: 5px; ;
 	float: right;
 	margin-right: 10px;
 }
