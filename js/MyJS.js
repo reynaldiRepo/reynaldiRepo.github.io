@@ -37,6 +37,6 @@ function scrollFunction() {
 };
 
 function autoScrollFunction(point) {
-  document.body.scrollTop += point;
-  document.documentElement.scrollTop += point;
+  document.body.scrollTop = point;
+  document.documentElement.scrollTop = point;
 };
