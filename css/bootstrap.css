@@ -74,6 +74,9 @@ hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
+  width: 88%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
