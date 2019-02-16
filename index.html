@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="footer, address, phone, icons" />
+
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="./css/MyCSS.css">
+  <link rel="stylesheet" href="./css/MyStyle.css">
+  <link rel="stylesheet" href="./css/Css.css">
+  <link rel="stylesheet" href="./css/font-awesome-4.7.0/css/font-awesome.css">
+  <link rel="shortcut icon" type="image/x-icon" href="https://image.freepik.com/free-icon/letter-r-key-on-keyboard_318-48168.jpg" />
+
+  <script type="text/javascript" src="./js/MyJS.js"></script>
+
+	<title>Welcome To Reynaldi World</title>
+</head>
+<body>
+  <button onclick="autoScrollFunction(0)" id="topBtn" title="Go to top">Top of page</button>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="https://github.com/reynaldiRepo"><i class="fa fa-github"></i> My Github</a>
+      <a href="#myFooter"><i class="fa fa-phone"></i> Contact</a>
+  </div>
+  <div class="HeadBar" id="headBar">
+    <span id="navBarBtn" onclick="openNav()" style="color: white;">&#9776;</span>
+    <h3>ReyanaldiRepo<span>.github.io</span></h3>
+  </div>
+	<div class="jumbotron text-center">
+		<h1>WELCOME TO REYNALDI WORLD</h1>
+		<q>Luck is great, but most of life is hard work.
+		</q>	
+	</div>
+	<div class="container">
+    <hr style="visibility: hidden;"><hr style="visibility: hidden;"><br>
+		<div class="row">
+    <div class="col-sm-4">
+      <h3>About Me</h3>
+      <img id="MyFoto" src="./IMAGE/MyFoto.jpg" alt="Dont Click My Photo" onclick="modalFoto()">
+      <p>My name is Reynaldi, i was born in Bandung 4th August 1998, and now i live in Gresik, East Java, Indonesia. I am a student at Trunonjoyo University majoring in Informatics Engineering.  I am an IT Enthusiast<br> <a href="#aboutDiv" onclick="autoScrollFunction(10)">Read more..</a></p>
+    </div>
+    <div class="col-sm-4">
+      <h3>What Can I do ?</h3>
+      <p>Things I can do. write code from several languages, 
+         some lenguages that i understand : python for my basics, java, javaScript, WEB Programing (HTML, CSS, PHP), little bits for doing Front End Programing and design because I am more interested and comfortable works on Back End Programing such as algorithms in an application, processing data with data mining methods, structuring data in databases and others. <br><a href="#wcidDiv" onclick="autoScrollFunction(10)">Read more..</a></p>
+    </div>
+    <div class="col-sm-4">
+      <h3>My Projects List</h3>        
+      <p>I have done some projects that I have uploaded in my github repository<br><a href="#myProjectList" onclick="autoScrollFunction(10)">Read more..</a></p>
+    </div>
+  </div>
+	</div>
+    <div id="myModal" class="modal">
+    <span class="close" onclick="closeModalFoto()">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>  
+    </div>
+    <br>
+  <div class="container" id="aboutDiv">
+    <hr><hr><br>
+      <h2>About Me</h2>
+      <img src="./IMAGE/MyFoto.jpg" style="width: 23%; float: left; margin-right: 10px; border-radius: 10px;">
+      <p>My name is Reynaldi, i was born in Bandung 4th August 1998, and now i live in Gresik, East Java, Indonesia. I am a student at Trunonjoyo University majoring in Informatics Engineering.  I am an IT Enthusiast. 
+      <dd>I am a person who has a good computer culture i think, I am comfortable in front of the screen, working on things that are useful for me and other people, I am also a person who is ready to be a lifelong learner because it has become a necessity for someone who works in technology to continue learn technology which will come.
+      <dd>music is my work companion, I am very comfortable working with listening to music, I was also a musician during high school, a little story hahaha, and coffee is doping for me, I really love coffee, it's like fuel in my brain to break a problem with the work I did. I can also work in teams or individually, I can be a good listener, I can really accept criticism, and I really like giving advice to people who ask me. so I can say I am a person who is ready to work in a collaborative era like today.
+      <dd><q>If you want to know me further, please give me a project or work on a project with me, and you will find out</q>. marketing words from me haha ​​.. </p>
+  </div>
+  <br>
+  <div class="container" id="wcidDiv">
+    <hr><hr><br>
+    <h2>What Can I Do ?</h2>
+    <p>Things I can do. write code from several languages, 
+          some lenguages that i understand : python for my basics, java, javaScript, WEB Programing (HTML, CSS, PHP), little bits for doing Front End Programing and design because I am more interested and comfortable works on Back End Programing such as algorithms in an application, processing data with data mining methods, structuring data in databases and others.
+      <dd>for now I'm focusing on programming mobile applications especially Android, understanding Android SDK, using Android studio as an application building tool, experiencing using several APIs such as Firebase, Google API, Facebook API, REST API, and several other APIs
+      <dd>besides my focus on the programming of mobile applications, I am also an enthusiastic person with data mining and machine learning, I like to process data so that the data can be used as useful things such as decision support systems or systems for forcasting something. Because my basic language is in Python, where Pyt-hon is the most powerful language for doing data mining or machine learning, I have experienced using several libraries from Python which can be used for data mining and machine learning. tensorflow, SkLearn, theano, and seaborn are some of the libraries I've used  
+      </p>
+  </div>
+<br>
+  <div class="container" id="myProjectList">
+    <hr><hr><br>
+    <h2>My Projects</h2>
+    <div class="row">
+      <div class="col-sm-4">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./IMAGE/GitHub.jpg" alt="Card image cap">
+          <div class="card-body">
+          <span class="card-title">Firebase Database UI</span>
+          <p class="card-text">This is an implementation of one of the Firebase APIs that is Realtime Database that implemented into Android UI</p>
+          <a href="https://github.com/reynaldiRepo/FirebaseDatabaseUI">Click More..</a>
+        </div>
+    	</div>
+      </div>
+      <div class="col-sm-4">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./IMAGE/GitHub.jpg" alt="Card image cap">
+          <div class="card-body">
+          <span class="card-title">NaiveBayes Forcasting IrisFlower</span>
+          <p class="card-text">The naive bayes program to predict the type of iris Flower</p>
+          <a href="https://github.com/reynaldiRepo/NaiveBayes_Forcasting_IrisFlower">Click More..</a>
+        </div>
+      </div>
+      </div>
+      <div class="col-sm-4">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./IMAGE/GitHub.jpg" alt="Card image cap">
+          <div class="card-body">
+          <span class="card-title">coming soon</span>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+          <a href="#">Click More..</a>
+        </div>
+      </div>
+      </div>
+	</div>
+    <br>
+    
+      <div class="row">
+      <div class="col-sm-4">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./IMAGE/GitHub.jpg" alt="Card image cap">
+          <div class="card-body">
+          <span class="card-title">PysideTextEditor</span>
+          <p class="card-text">simple calculator built using the PySide module</p>
+          <a href="https://github.com/reynaldiRepo/PysideTextEditor">Click More..</a>
+        </div>
+      </div>
+      </div>
+      <div class="col-sm-4">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./IMAGE/GitHub.jpg" alt="Card image cap">
+          <div class="card-body">
+          <span class="card-title">coming soon</span>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+          <a href="#">Click More..</a>
+        </div>
+      </div>
+      </div>
+      <div class="col-sm-4">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./IMAGE/GitHub.jpg" alt="Card image cap">
+          <div class="card-body">
+          <span class="card-title">coming soon</span>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+          <a href="#">Click More..</a>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="GithubSec"><a href="https://github.com/reynaldiRepo" id="myGit">Go to My Github for more....</a></div>
+    </div>
+  </div>
+
+ <footer class="footer-distributed" id="myFooter">
+      <div class="footer-left">
+        <h3>ReyanaldiRepo<span>.github.io</span></h3>
+        <p class="footer-links">
+          <a href="#" onclick="autoScrollFunction(0)">Home</a>
+          ·
+          <a href="#" onclick="autoScrollFunction(400)">About Me</a>
+          ·
+          <a href="#" onclick="autoScrollFunction(0)">What Can I do</a>
+          ·
+          <a href="#" onclick="autoScrollFunction(0)">My Projects</a>
+        </p>
+        <p class="footer-company-name">reynaldirepo.github.io &copy; 2019</p>
+      </div>
+      <div class="footer-center">
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>Bukit Randuagung Indah Blok AL 3/8</span> Gresik, Indonesia</p>
+        </div>
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+62 - 8133 - 2826 - 907</p>
+        </div>
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:reynald.gresik.com">reynald.gresik@gmail.com</a></p>
+        </div>
+
+      </div>
+      <div class="footer-right">
+        <p class="footer-company-about">
+          <span>About reynaldirepo.github.io</span>
+          This page contains portfolio and CV of me, and maybe one day i will post some useful content and update about my new projects
+        </p>
+        <div class="footer-icons">
+          <span style="color: #fff; font-size: 15px;">follow me</span><br><br>
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa fa-linkedin"></i></a>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
